@@ -50,7 +50,7 @@
 #include <iostream>
 #include <limits>
 using namespace std;
-
+const float pi = 3.14159;
 int main()
 {
 	int a;
@@ -59,9 +59,24 @@ int main()
 	char d;
 	float e;
 	int b = -1;
-
-
-
-
-
+	int b = 0;
+	long long int c;
+	(int)numeric_limits<char>::max; //для переменной d, т.к. тип char.
+	int a = 666;
+	short int a = 0x666;
+	long long int a = 0666;
+	char a = 0b01110;
+	char a = 'f';
+	unsigned int a = 0b10101010;
+	const long long int z = 0b1010101;
+	unsigned char MyAge;
+    float MyBackYard;
+	unsigned long long int StarsInTheGalaxy;
+	float FallOut;
+	float c = pi;
+	const unsigned short int NumberOfDaysInYear = 365;
+	const unsigned short int NumberOfDaysInWeek = 7;
+	unsigned short int WeeksInMonth;
+	WeeksInMonth = NumberOfDaysInYear / NumberOfDaysInWeek;
+	cout << WeeksInMonth << endl;
 }
