@@ -1,22 +1,17 @@
-
-
-
-
-//#include <iostream>
+//№1
+//#include <iostream>      
 //using namespace std;
 //
 //int main() {
 //	int sum,a; cin >> a;
-//	cout << a / 100 + (a / 10) % 10 + a % 10; //сумма цифр числа
+//	cout << a / 100 + (a / 10) % 10 + a % 10; //noiia oeo? ?enea
 //	while (1);
 //	return 0;
-//}
+//}	  
 
 
 
-
-
-
+//№2
 //#include <iostream>
 //using namespace std;
 //
@@ -32,13 +27,12 @@
 //
 //	while (1);
 //	return 0;
-//}
+//}	
 
 
 
-
-
-//#include <iostream>
+//№3
+//#include <iostream>   
 //#include <cmath>
 //using namespace std;
 //
@@ -54,12 +48,11 @@
 //
 //	while (1);
 //	return 0;
-//}
+//}	 
 
 
 
-
-
+//№4
 //#include <iostream>
 //using namespace std;
 //
@@ -79,7 +72,7 @@
 
 
 
-
+//№5
 //#include <iostream>
 //using namespace std;
 //
@@ -93,16 +86,32 @@
 //	return 0;
 //}
 
-#include <iostream>
 
-using namespace std;
 
-int main() {
-	int a,PartOfc1,PartOfc2; cin >> a;
-	PartOfc1 = a / 1000 + (a / 100) % 10;
-	PartOfc2 = a % 10 + ((a / 10) % 10);
-	cout << PartOfc1 - PartOfc2 +1 << endl;
-	while (1);
-	return 0;
-}
+//№6
+//#include <iostream>
+//
+//using namespace std;
+//
+//int main() {
+//	int a, PartOfc1, PartOfc2; cin >> a;
+//	PartOfc1 = a / 1000 + (a / 100) % 10;
+//	PartOfc2 = a % 10 + ((a / 10) % 10);
+//	cout << PartOfc1 - PartOfc2 + 1 << endl;
+//	while (1);
+//	return 0;
+//}
 
+
+
+//№6-дополнительное задание, на отдельную оценку.
+//#include <iostream>                            
+//using namespace std;
+//int main() {
+//	setlocale(LC_ALL, "rus");
+//	int hight, up, down, result; cin >> hight >> up >> down;
+//	result = 1 + (hight - down - 1) / (up - down);
+//	cout << "Улитка дойдет до высоты " << hight << " за вот это количество дней :)   : " << result;
+//	while (1);
+//	return 0;
+//}
